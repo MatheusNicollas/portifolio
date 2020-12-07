@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Chamada CSS do Bootstrap 4.5 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <link rel="shortcut icon" href="img/escudo.ico"/>
+        <link rel="stylesheet" href="css/custom.css"/>
+        <title>Matheus Nícollas</title>
+    </head>
+    <body>   
+        <!-- Menu -->
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="img/logo.png" alt="logo" width="60" height="56"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link scroll" href="#" id="inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#skills">Skills</a>
+                    </li>                       
+                    <li class="nav-item">
+                        <a class="nav-link scroll" href="#projetos">Projetos</a>
+                    </li>
+                </ul>
+                
+                <a href="https://1drv.ms/b/s!Au-XUkGKm6RTj27a-3QOJAR3TXSG?e=89TFs7" target="_blank" class="btn btn-outline-dark my-2 my-sm-0">
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-in-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+                        <path fill-rule="evenodd" d="M7.646 4.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V14.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3z"/>
+                    </svg>
+                    Currículo
+                </a>               
+            </div>
+        </nav>
+        <!-- Menu/ -->
+        <header>
+            <!-- Banner -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="inicio" style="width: 75%">
+                            <img id="perfil" src="img/pp.jpg" alt="foto de perfil" class="pessoa_circle"/>
+                        </div>                
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="inicio">
+                            <h1 style="font-family: 'Poppins Black'">Desenvolvedor Java</h1>
+                            <p class="lead text-justify">
+                                Matheus Nícollas de Souza Mota
+                            </p>
+                            <p class="h5 text-justify">
+                                Motivado e autodidata, procuro sempre aprender novas tecnologias e aprofundar meus conhecimentos 
+                                nas tecnologias que mais domino. Entusiasta na área de tecnologia desde os 15 anos, quando aprendi a programar,
+                                tomei para mim JAVA como linguagem favorita, conheci nessa trajetória o Spring Framework e logo o adotei como 
+                                Stack principal. Venho procurando estudarAngular para me tornar Fullstack e adequar minhas skills ao mercado de trabalho.
+                            </p>
+                            <br>
+                            <p>
+                                <i class="fab fa-github"></i> <a href="https://github.com/MatheusNicollas/" target="_blank" style="color: black;"> Meu Github</a>
+                                <br>
+                                <i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/matheus-n%C3%ADcollas-8b1ba1142/" target="_blank" style="color: black;"> Meu LinkedIn</a>
+                                <br>
+                                <i class="far fa-envelope"></i> matheusnicollas46@gmail.com
+                                <br>
+                                <i class="fab fa-whatsapp"></i> (61) 9 9509-4219
+                            </p>
+                        </div> 
+                    </div>
+                </div>
+            </div>                   
+        </header>
+        <main>
+            <section id="skills">
+                <div class="col-lg-12 separador"></div>
+                <div class="container-fluid">                   
+                    <h4 class="display-4" style="text-align: center;">Skills</h4>  
+                    <br>                 
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <br>
+                            <h4>Línguas Estrangeiras:</h4>
+                            <p class="text-justify">
+                                Inglês (Fluente); <br> 
+                                Espanhol (Básico).
+                            </p>
+
+                            <h4>Linguagens de Programação:</h4>
+                            <p class="text-justify">
+                                JAVA 8 EE/SE (Avançado);<br> 
+                                NodeJS (Intermediário);<br> 
+                                Python (Básico);<br> 
+                                C (Básico)
+                            </p>
+
+                            <h4>Banco de Dados:</h4>
+                            <p class="text-justify">
+                                Linguagem SQL (SGBDs: MySQL e Oracle);<br>
+                                PL/SQL Oracle.
+                            </p>
+                            
+                        </div>
+                        <div class="col-lg-4">
+                            <br>
+                            <h4>Frameworks Frontend:</h4>
+                            <p class="text-justify">
+                                Bootstrap;<br> 
+                                Materialize;<br> 
+                                JQuery/AJAX;<br> 
+                                Thymeleaf.
+                            </p>
+
+                            <h4>Frameworks Backend:</h4>
+                            <p class="text-justify">
+                                Spring Framework (Springboot e Spring MVC);<br> 
+                                Hibernate/JPA;<br> 
+                                JDBC.
+                            </p>
+                        </div>
+                        <div class="col-lg-4">
+                            <br>
+                            <h4>Complementações WEB:</h4>
+                            <p class="text-justify">
+                                HTML 5;<br>
+                                CSS 3; <br>
+                                Javascript/ ECMAScript 6;<br>
+                                Spring APIs REST;<br> 
+                                JSON;<br>
+                                GIT (Básico).
+                            </p>
+
+                            <h4>Outras Complementações:</h4>
+                            <p class="text-justify">
+                                Photoshop;<br> 
+                                Vegas PRO.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="projetos">
+                <div class="col-lg-12 separador"></div>
+                <div class="container-fluid">                   
+                    <h4 class="display-4" style="text-align: center;">Projetos</h4>  
+                    <br>                 
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a id="projetos" href="" data-toggle="modal" data-target="#gopark">
+                                <div class="zoom">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <img src="img/gopark1.png">
+                                            <h5 class="card-title"><i class="fab fa-java"></i> GoPark</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted"> Estacionamento Inteligente</h6>
+                                            <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#gopark">Visualizar Projeto</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <a id="projetos" href="" data-toggle="modal" data-target="#frogger">
+                                <div class="zoom">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <img src="img/frogger1.png">
+                                            <h5 class="card-title"><i class="fab fa-autoprefixer"></i> Frogger</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Réplica do jogo Frogger do Atari</h6>
+                                            <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#frogger">Visualizar Projeto</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <a id="projetos" href="" data-toggle="modal" data-target="#limpeza">
+                                <div class="zoom">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <img src="img/limpeza2.png">
+                                            <h5 class="card-title"><i class="fab fa-java"></i> Casa da Limpeza</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Sistema gerenciador de Estoque</h6>
+                                            <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#limpeza">Visualizar Projeto</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <a id="projetos" href="" data-toggle="modal" data-target="#procuradores">
+                                <div class="zoom">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <img src="img/procuradores1.png">
+                                            <h5 class="card-title"><i class="fab fa-java"></i> Procuradores da PGR</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Grenciador de Procuradores PGR</h6>
+                                            <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#procuradores">Visualizar Projeto</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <a id="projetos" href="" data-toggle="modal" data-target="#producao">
+                                <div class="zoom">
+                                    <div class="card" style="width: 18rem;">
+                                        <div class="card-body">
+                                            <img src="img/producao3.png">
+                                            <h5 class="card-title"><i class="fab fa-opera"></i> Produção</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Medidor de Produção da PGR</h6>
+                                            <button type="button" class="btn btn-dark btn-sm" data-toggle="modal" data-target="#producao">Visualizar Projeto</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal GOPARK-->
+                <div class="modal fade bd-example-modal-lg" id="gopark" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Go Park - Estacionamento Inteligente</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="goparkInterval" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="5000">
+                                        <img src="img/gopark1.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/gopark2.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/gopark3.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/gopark4.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/gopark5.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                        <img src="img/gopark6.png" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#goparkInterval" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#goparkInterval" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="h5 text-justify">Breve Descrição:</p>
+                                <p class="lead text-justify">O GoPark é um PWA que tem como objetivo principal criar um aplicativo que identifica qual vaga está ocupada e 
+                                    qual está disponível. Outras funções como pagamentos direto do App também são importante aqui.</p>
+                                
+                                <p class="h5 text-justify">Tecnologias Utilizadas:</p>
+                                <p class="lead text-justify">
+                                    <b>Frontend:</b><br> 
+                                        - HTML 5/CSS 3/Javascript;<br>
+                                        - Bootstrap;<br>
+                                        - JQuery/AJAX.<br>
+                                    <b>Backend:</b><br>
+                                        - Java 8 EE;<br> 
+                                        - JSP.<br> 
+                                    <b>Banco de Dados:</b><br>
+                                        - JDBC;<br> 
+                                        - SQL (MySQL).<br>  
+                                    <b>Microcontrolador para Identificar Vagas:</b><br>  
+                                        - Arduino;<br> 
+                                        - Módulo de Rede Ethernet Shield W5100;<br>
+                                        - Sensor de Distância Ultrassônico - HC-SR04.<br>                  
+                                </p>
+                                
+                                <a href="https://github.com/MatheusNicollas/GoPark-v2" target="_blank" style="color: #343a40;"><i class="fab fa-github"></i> Repositório do projeto</a>
+                                <br>
+                                <a href="https://www.youtube.com/watch?v=foSe6P665ac&feature=youtu.be&ab_channel=N%C3%ADcollasCode" target="_blank" style="color: #343a40;"><i class="fab fa-youtube"></i> Vídeo Demonstrando o Projeto</a>                                
+                                <br>                             
+                                <a href="http://gopark.myartsonline.com/" target="_blank" style="color: #343a40;"><i class="fas fa-sign-in-alt"></i> Site fictício para apresentação do projeto</a>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal FROGGER-->
+                <div class="modal fade bd-example-modal-lg" id="frogger" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Frogger</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="froggerInterval" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active" data-interval="5000">
+                                        <img src="img/frogger1.png" class="d-block w-100">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/frogger2.png" class="d-block w-100">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img src="img/frogger3.png" class="d-block w-100">
+                                      </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#froggerInterval" role="button" data-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#froggerInterval" role="button" data-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="h5 text-justify">Breve Descrição:</p>
+                                <p class="lead text-justify">Frogger é um joguingo antigo do Atari, o objetivo deste projeto foi replicar este jogo utilizando
+                                    a linguagem Assembly trabalhando somente com 32 BITS.</p>
+                                
+                                <p class="h5 text-justify">Tecnologias Utilizadas:</p>
+                                <p class="lead text-justify">
+                                    <b>Simulador:</b><br> 
+                                        - MARS IDE<br>
+                                    <b>Linguagem de Programação:</b><br>
+                                        - Assembly MIPS 32 BITS<br> 
+                                    <b>Ferramentas Adiconais:</b><br>
+                                        - Photoshop (para desenhar os sprites)
+                                </p>
+                                
+                                <a href="https://github.com/MatheusNicollas/Frogger2017" target="_blank" style="color: #343a40;"><i class="fab fa-github"></i> Repositório do projeto</a>
+                                <br>
+                                <a href="https://www.youtube.com/watch?v=p47zY1Vz72w&feature=youtu.be&ab_channel=N%C3%ADcollasCode" target="_blank" style="color: #343a40;"><i class="fab fa-youtube"></i> Vídeo Demonstrando o jogo</a>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal CASA DA LIMPEZA-->
+                <div class="modal fade bd-example-modal-lg" id="limpeza" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Casa da Limpeza</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="limpezaInterval" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="5000">
+                                            <img src="img/limpeza1.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/limpeza2.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/limpeza3.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/limpeza4.png" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#limpezaInterval" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#limpezaInterval" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="h5 text-justify">Breve Descrição:</p>
+                                <p class="lead text-justify">Sistema para Gerenciar estoque de uma loja de produtos de limpeza.</p>
+                                
+                                <p class="h5 text-justify">Tecnologias Utilizadas:</p>
+                                <p class="lead text-justify">
+                                    <b>Frontend:</b><br> 
+                                        - Java Swing;<br>
+                                        - JOptional Pane.
+                                    <b>Backend:</b><br>
+                                        - Java 8 SE;<br> 
+                                    <b>Banco de Dados:</b><br>
+                                        - JDBC;<br> 
+                                        - SQL (MySQL).<br> 
+                                </p>
+                                
+                                <a href="https://github.com/MatheusNicollas/CasaDaLimpeza" target="_blank" style="color: #343a40;"><i class="fab fa-github"></i> Repositório do projeto</a>
+                                
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal PROCURADORES-->
+                <div class="modal fade bd-example-modal-lg" id="procuradores" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Procuradores da República</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="procuradoresInterval" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="5000">
+                                            <img src="img/procuradores1.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/procuradores2.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/procuradores3.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/procuradores4.png" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#procuradoresInterval" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#procuradoresInterval" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="h5 text-justify">Breve Descrição:</p>
+                                <p class="lead text-justify">Sistema para cadastro de procuradores, procuradores substitutos e secretários da PGR - Procuradoria Geral da República.</p>
+                                
+                                <p class="h5 text-justify">Tecnologias Utilizadas:</p>
+                                <p class="lead text-justify">
+                                    <b>Frontend:</b><br> 
+                                        - HTML 5/CSS 3/Javascript;<br>
+                                        - Bootstrap;<br>
+                                        - JQuery/AJAX;<br>
+                                        - Thymeleaf. <br>
+                                    <b>Backend:</b><br>
+                                        - Java 8;<br> 
+                                        - Springboot.<br> 
+                                    <b>Banco de Dados:</b><br>
+                                        - JPA/Hibernate;<br> 
+                                        - SQL (MySQL).<br> 
+                                </p>
+                                
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal PRODUÇÃO-->
+                <div class="modal fade bd-example-modal-lg" id="producao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Sistema Avaliador de Produção da PGR</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <div id="producaoInterval" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active" data-interval="5000">
+                                            <img src="img/producao1.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/producao2.png" class="d-block w-100">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/producao3.png" class="d-block w-100">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#producaoInterval" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#producaoInterval" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                                <br>
+                                <p class="h5 text-justify">Breve Descrição:</p>
+                                <p class="lead text-justify">Sistema responsável por medir a produtividade de servidores e colaboradores da PGR - Procuradoria Geral da República, 
+                                    gerando gráficos analíticos através de Queries SQL e Procedures.</p>
+                                
+                                <p class="h5 text-justify">Tecnologias Utilizadas:</p>
+                                <p class="lead text-justify">
+                                    <b>Frontend:</b><br> 
+                                        - HTML 5/CSS 3/Javascript;<br>
+                                        - Oracle APEX.<br>
+                                    <b>Backend:</b><br>
+                                        - Oracle APEX.<br>
+                                    <b>Banco de Dados:</b><br>
+                                        - PL/SQL (Oracle).<br> 
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <div class="bt-voltar" id="bt-voltar">
+            <input type="image" alt="topo" name="topo" src="img/topo.png" onclick="scrollToTop(1000)"; title="Ir para o topo" />
+        </div> 
+        <!-- Banner/ -->
+        <!-- Chamada do JQUERY -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--Chamada JS do Bootstrap 4.5 -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <!--Chamada da dependencia Popper do Bootstrap 4.5-->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <!--Script que cria a animação de scroll do botão "topo" --> 
+        <script src="js/buttonscroll.js"></script>
+
+        <script>
+            $("#inicio").on('click', function() {
+                scrollToTop(1000);
+            });
+        </script>
+
+        <!--Script que cria o efeito de scroll suave pra links internos -->
+        <script>
+            jQuery(document).ready(function($) { 
+                $('#bt-voltar').fadeOut();
+                $(".scroll").click(function(event){    
+                    event.preventDefault();
+                    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+                });
+            });
+        </script>
+
+        <!-- Script que faz o botão de Scroll to Top aparecer só depois da primeira section-->
+        <script>
+            $(window).scroll(function() {
+                var height = $(window).scrollTop();
+                if (height > 100) {                  
+                    $('#bt-voltar').fadeIn();
+                } else {
+                    $('#bt-voltar').fadeOut();
+                }
+            });
+        </script>
+    </body>
+</html>
